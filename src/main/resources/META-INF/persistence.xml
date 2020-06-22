@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.project_bookstore_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.project.bookstore.models.OrderStatus</class>
+    <class>com.project.bookstore.models.DeliveryAddress</class>
+    <class>com.project.bookstore.models.Genre</class>
+    <class>com.project.bookstore.models.DeliveryAddressUser</class>
+    <class>com.project.bookstore.models.Book</class>
+    <class>com.project.bookstore.models.Basket</class>
+    <class>com.project.bookstore.models.BasketItem</class>
+    <class>com.project.bookstore.models.OrderItem</class>
+    <class>com.project.bookstore.models.Order</class>
+    <class>com.project.bookstore.models.Role</class>
+    <class>com.project.bookstore.models.User</class>
+    <class>com.project.bookstore.models.WishlistItem</class>
+    <class>com.project.bookstore.models.Wishlist</class>
+    <class>com.project.bookstore.models.Publisher</class>
+    <class>com.project.bookstore.models.Author</class>
+    <class>com.project.bookstore.models.BookOrder</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://ra1.anystream.eu:3012/3_tier_books?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="AFDEmp_MySQL1"/>
+    </properties>
+  </persistence-unit>
+</persistence>

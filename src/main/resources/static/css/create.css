@@ -1,0 +1,15 @@
+.btn {
+    background-color: #C0B283;
+}
+
+.page-footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;       
+    text-align: center;
+  }
+
+  #formTitle {
+    color: #373737;
+  }

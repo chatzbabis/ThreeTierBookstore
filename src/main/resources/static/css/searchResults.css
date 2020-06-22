@@ -1,0 +1,36 @@
+ul.navbar-nav.mr-auto > li {
+    border-right: black 1px solid;
+    line-height: 3px;
+}
+
+ul.navbar-nav.onleft > li {
+    border-left: black 1px solid;
+    line-height: 3px;
+}
+
+.carousel.slide.mt-3 .carousel-item {
+    height: 300px;
+  }  
+
+.card-header.filter {
+    background-color: #373737; 
+    font-family: 'Chelsea Market', cursive;
+}
+
+.card-body.filter {
+    background-color: #c0b283;    
+}
+
+.form-check-label {
+    font-family: Chelsea Market, cursive;
+}
+
+#sliderBox, #sliderBox2 {
+    background-color: #C0B283;
+}
+
+#myRange {
+    background-color: #373737;
+}
+
+

@@ -1,0 +1,11 @@
+.titles {
+    background-color: #C0B283;
+}
+
+#bookBox {
+    display: flexbox;
+}
+
+.buttons {
+    border:1px solid #C0B283;
+}
